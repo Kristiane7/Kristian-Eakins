@@ -5,39 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kristian Eakins | Digital Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1E3A5F; /* Darker Blue */
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .profile img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+        .profile-text {
+            max-width: 500px;
+            text-align: left;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            background-color: #14263D;
+        }
+    </style>
 </head>
 <body>
 
     <header>
-        <div class="container">
-            <h1>Kristian Eakins</h1>
-            <p>Finance | Accounting | Business Leadership</p>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="internships.html">Internships</a></li>
-                    <li><a href="courses.html">Business Courses & Projects</a></li>
-                    <li><a href="capstone.html">Capstone Project</a></li>
-                    <li><a href="golf.html">Golf</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1>Kristian Eakins</h1>
+        <p>Finance | Accounting | Business Leadership</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="internships.html">Internships</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="capstone.html">Capstone</a></li>
+                <li><a href="golf.html">Golf</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section class="hero">
-        <div class="container">
-            <img src="profile.jpg" alt="Kristian Eakins">
-            <h2>Class of 2025</h2>
-            <p>As a dedicated high school student passionate about finance and accounting, I’ve spent most of my academic journey exploring business and leadership in and out of school...</p>
-            <a href="resume.pdf" class="btn">Download Resume</a>
+    <div class="container">
+        <div class="profile">
+            <img src="IMG_6697.jpeg" alt="Kristian Eakins">
+            <div class="profile-text">
+                <h2>Kristian Eakins | Class of 2025</h2>
+                <p>
+                    As a dedicated high school student passionate about finance and accounting, 
+                    I’ve spent most of my academic journey exploring business and leadership in and out of school. 
+                    Through hands-on internships and taking leadership roles in organizations like the 
+                    Joe DiMaggio All-Stars and Fairplay Sports for All, I’ve developed many skills in 
+                    accounting, financial modeling, and community impact. With a GPA of 3.84 in the 
+                    Business & Entrepreneurship Program at American Heritage School, 
+                    I’m excited to continue my education in any and all environments that 
+                    I can learn and grow as a person and businessman.
+                </p>
+            </div>
         </div>
-    </section>
+    </div>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2025 Kristian Eakins. All Rights Reserved.</p>
-        </div>
+        <p>&copy; 2025 Kristian Eakins | All Rights Reserved</p>
     </footer>
 
 </body>
