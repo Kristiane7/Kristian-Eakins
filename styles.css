@@ -1,21 +1,40 @@
+/* General Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    background-color: #1C1C1E; /* Dark gray background */
+    color: white;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
 }
 
-header {
-    background-color: #1a237e;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-}
-
+/* Container for Content */
 .container {
-    width: 80%;
-    margin: auto;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
     text-align: center;
+}
+
+/* Header Styling */
+header {
+    background-color: #2A3D66; /* Deep blue */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    font-size: 18px;
+    color: #D0D3D4; /* Light gray text */
+}
+
+/* Navigation Bar */
+nav {
+    margin-top: 10px;
 }
 
 nav ul {
@@ -31,45 +50,65 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
-}
-
-.hero {
-    padding: 50px 0;
-    text-align: center;
-    background-color: #e8eaf6;
-}
-
-.hero img {
-    width: 200px;
-    border-radius: 50%;
-}
-
-.hero h2 {
-    color: #1a237e;
-}
-
-.hero p {
-    width: 60%;
-    margin: auto;
     font-size: 18px;
-    line-height: 1.6;
+    transition: color 0.3s ease;
 }
 
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #1a237e;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
+nav ul li a:hover {
+    color: #5DADE2; /* Lighter blue hover effect */
 }
 
-footer {
-    background-color: #1a237e;
-    color: white;
+/* Profile Section */
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.profile img {
+    width: 250px; /* Fixed width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%;
+    border: 3px solid white;
+    object-fit: cover;
+}
+
+.profile-text {
+    max-width: 500px;
+    text-align: left;
+}
+
+/* Resume Link */
+.resume-link {
     text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
+    margin-top: 40px;
+}
+
+.resume-link a {
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid gray;
+    padding-bottom: 2px;
+}
+
+.resume-link a:hover {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #2A3D66; /* Deep blue footer */
+}
+
+footer p {
+    margin: 0;
+    color: #D0D3D4; /* Light gray text */
 }
