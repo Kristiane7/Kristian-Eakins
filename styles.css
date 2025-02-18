@@ -112,3 +112,22 @@ footer p {
     margin: 0;
     color: #D0D3D4; /* Light gray text */
 }
+.resume-link {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.resume-link a {
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid gray;
+    padding-bottom: 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+.resume-link a:hover {
+    color: white;
+    border-bottom: 2px solid white;
+}
