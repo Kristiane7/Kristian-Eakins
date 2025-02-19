@@ -131,3 +131,14 @@ footer p {
     color: white;
     border-bottom: 2px solid white;
 }
+/* Contact Page Styles */
+.contact-info a {
+    color: white; /* Makes links white */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    color: #ccc; /* Light gray on hover */
+    text-decoration: underline; /* Adds underline on hover */
+}
