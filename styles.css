@@ -17,7 +17,7 @@ body {
 
 /* Header Styling */
 header {
-    background-color: #2A3D66; /* Deep blue */
+    background-color: #3B4F8A; /* Adjusted blue for a more modern look */
     padding: 20px;
     text-align: center;
 }
@@ -69,35 +69,39 @@ nav ul li a:hover {
 
 .profile img {
     width: 250px; /* Fixed width */
-    height: auto; /* Maintain aspect ratio */
+    height: 250px; /* Ensures image maintains aspect ratio */
     border-radius: 50%;
     border: 3px solid white;
     object-fit: cover;
 }
 
+/* Profile Text */
 .profile-text {
     max-width: 500px;
     text-align: left;
 }
 
-/* Resume Link */
-.resume-link {
+/* Resume Button */
+.resume-container {
     text-align: center;
     margin-top: 40px;
 }
 
-.resume-link a {
-    color: gray;
-    font-size: 20px;
+.resume-button {
+    display: inline-block;
+    background-color: #4A90E2; /* Professional blue */
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
     font-weight: bold;
     text-decoration: none;
-    border-bottom: 2px solid gray;
-    padding-bottom: 2px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.resume-link a:hover {
-    color: white;
-    border-bottom: 2px solid white;
+.resume-button:hover {
+    background-color: #357ABD; /* Slightly darker on hover */
+    transform: scale(1.05);
 }
 
 /* Footer */
@@ -112,25 +116,7 @@ footer p {
     margin: 0;
     color: #D0D3D4; /* Light gray text */
 }
-.resume-link {
-    text-align: center;
-    margin-top: 30px;
-}
 
-.resume-link a {
-    color: gray;
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none;
-    border-bottom: 2px solid gray;
-    padding-bottom: 2px;
-    transition: all 0.3s ease-in-out;
-}
-
-.resume-link a:hover {
-    color: white;
-    border-bottom: 2px solid white;
-}
 /* Contact Page Styles */
 .contact-info a {
     color: white; /* Makes links white */
@@ -142,11 +128,12 @@ footer p {
     color: #ccc; /* Light gray on hover */
     text-decoration: underline; /* Adds underline on hover */
 }
+
 /* Contact Page - Message Box Size */
 .contact-form textarea {
-    width: 80%; /* Adjust width as needed */
-    height: 150px; /* Adjust height for a smaller message box */
-    resize: vertical; /* Allows user to resize vertically if needed */
+    width: 80%;
+    height: 120px; /* Adjusted height to be smaller */
+    resize: vertical;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
