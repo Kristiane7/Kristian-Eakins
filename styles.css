@@ -191,3 +191,61 @@ footer p {
 .view-essay:hover {
     background: #3498DB; /* Darker blue */
 }
+/* Golf Page Styling */
+.golf-section {
+    background: #2A3D66; /* Deep blue, same as internships */
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.golf-section h3 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.golf-section p {
+    color: #D0D3D4; /* Light gray */
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Achievements List */
+.golf-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.golf-section ul li {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 8px;
+}
+
+/* Golf Gallery */
+.golf-gallery {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 3px solid white;
+    transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+}
