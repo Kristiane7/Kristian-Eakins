@@ -142,3 +142,13 @@ footer p {
     color: #ccc; /* Light gray on hover */
     text-decoration: underline; /* Adds underline on hover */
 }
+/* Contact Page - Message Box Size */
+.contact-form textarea {
+    width: 80%; /* Adjust width as needed */
+    height: 150px; /* Adjust height for a smaller message box */
+    resize: vertical; /* Allows user to resize vertically if needed */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
