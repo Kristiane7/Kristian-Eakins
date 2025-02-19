@@ -48,26 +48,32 @@
             height: 250px;
             border-radius: 50%;
             border: 3px solid white;
+            object-fit: cover;
         }
         .profile-text {
             max-width: 500px;
             text-align: left;
         }
-        .resume-link {
+        /* Resume Button */
+        .resume-container {
             text-align: center;
-            margin-top: 40px;
+            margin-top: 30px;
         }
-        .resume-link a {
-            color: #FFD700; /* Gold color for visibility */
-            font-size: 20px;
+        .resume-button {
+            display: inline-block;
+            background-color: gray;
+            color: white;
+            padding: 12px 25px;
+            font-size: 18px;
             font-weight: bold;
             text-decoration: none;
-            border-bottom: 2px solid #FFD700;
-            padding-bottom: 2px;
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
         }
-        .resume-link a:hover {
-            color: white;
-            border-bottom: 2px solid white;
+        .resume-button:hover {
+            background-color: white;
+            color: black;
+            border: 2px solid gray;
         }
         footer {
             text-align: center;
@@ -83,41 +89,41 @@
         <h1>Kristian Eakins</h1>
         <p>Finance | Accounting | Business Leadership</p>
         <nav>
-   <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="internships.html">Internships</a></li>
-      <li><a href="courses.html">Courses</a></li>
-      <li><a href="capstone.html">Capstone</a></li>
-      <li><a href="golf.html">Golf</a></li>
-      <li><a href="contact.html">Contact</a></li>
-   </ul>
-</nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="internships.html">Internships</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="capstone.html">Capstone</a></li>
+                <li><a href="golf.html">Golf</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <div class="container">
         <div class="profile">
-    <img src="IMG_6697.jpeg" alt="Kristian Eakins">
-    <div class="profile-text">
-        <h2>Kristian Eakins | Class of 2025</h2>
-        <p>
-            As a dedicated high school student passionate about finance and accounting, 
-            I’ve spent most of my academic journey exploring business and leadership in and out of school. 
-            Through hands-on internships and taking leadership roles in organizations like the 
-            Joe DiMaggio All-Stars and Fairplay Sports for All, I’ve developed many skills in 
-            accounting, financial modeling, and community impact. With a GPA of 3.84 in the 
-            Business & Entrepreneurship Program at American Heritage School, 
-            I’m excited to continue my education in any and all environments that 
-            I can learn and grow as a person and businessman.
-        </p>
-    </div>
-</div>
+            <img src="IMG_6697.jpeg" alt="Kristian Eakins">
+            <div class="profile-text">
+                <h2>Kristian Eakins | Class of 2025</h2>
+                <p>
+                    As a dedicated high school student passionate about finance and accounting, 
+                    I’ve spent most of my academic journey exploring business and leadership in and out of school. 
+                    Through hands-on internships and taking leadership roles in organizations like the 
+                    Joe DiMaggio All-Stars and Fairplay Sports for All, I’ve developed many skills in 
+                    accounting, financial modeling, and community impact. With a GPA of 3.84 in the 
+                    Business & Entrepreneurship Program at American Heritage School, 
+                    I’m excited to continue my education in any and all environments that 
+                    I can learn and grow as a person and businessman.
+                </p>
+            </div>
+        </div>
 
         <!-- Resume Section -->
-       div class="resume-link">
-    <a href="Kristian_Eakins_Resume.pdf" target="_blank">View My Resume</a>
-        View My Resume
-    </a>
-</div>
+        <div class="resume-container">
+            <a href="KRISTIAN EAKINS RESUME DEC 12:28:2024.pdf" target="_blank" class="resume-button">📄 View My Resume</a>
+        </div>
+    </div>
+
     <footer>
         <p>&copy; 2025 Kristian Eakins | All Rights Reserved</p>
     </footer>
